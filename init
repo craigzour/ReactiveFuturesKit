@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+system("rm -rf Carthage; rm Cartfile.resolved")
+system("carthage bootstrap --no-use-binaries --use-ssh --platform iOS")

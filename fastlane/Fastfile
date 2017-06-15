@@ -1,0 +1,9 @@
+import_from_git(url: 'git@github.com:OMsignal/fastlane-common.git')
+
+platform :ios do
+  before_all do
+    ENV["FL_VERSION_NUMBER_PROJECT"] = "ReactiveFuturesKit/ReactiveFuturesKit.xcodeproj"
+    ENV["FL_BUILD_NUMBER_PROJECT"] = "ReactiveFuturesKit/ReactiveFuturesKit.xcodeproj"
+    ENV["FL_SET_GITHUB_RELEASE_REPOSITORY_NAME"] = "OMsignal/ReactiveFuturesKit"
+  end
+end

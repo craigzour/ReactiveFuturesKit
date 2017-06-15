@@ -1,0 +1,9 @@
+//
+//  ReactiveFuturesKit.xcconfig
+//  ReactiveFuturesKit
+//
+//  Created by clement on 2017-06-15.
+//  Copyright © 2017 OMsignal. All rights reserved.
+//
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(SRCROOT)/../Carthage/Build/iOS
