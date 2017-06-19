@@ -9,5 +9,5 @@ A Swift implementation of [Futures](https://en.wikipedia.org/wiki/Futures_and_pr
 #### Carthage
 
 ```
-github "OMsignal/ReactiveFuturesKit" ~> 1.0
+github "OMsignal/ReactiveFuturesKit" ~> 1.0.0
 ```
