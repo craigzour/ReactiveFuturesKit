@@ -20,3 +20,12 @@ public extension SignalProducer {
     }
     
 }
+
+
+public extension Signal {
+    
+    public func toFuture() -> Future<Value, Error> {
+        return SignalProducer(self).toFuture()
+    }
+    
+}
