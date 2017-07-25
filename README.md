@@ -9,11 +9,11 @@ A Swift implementation of [Futures](https://en.wikipedia.org/wiki/Futures_and_pr
 #### Carthage
 
 ```
-github "OMsignal/ReactiveFuturesKit" ~> 1.1.1
+github "OMsignal/ReactiveFuturesKit" "v1.1.1"
 ```
 
 #### CocoaPods
 
 ```
-pod 'ReactiveFuturesKit', :git => 'https://github.com/OMsignal/ReactiveFuturesKit.git', :tag => '1.1.1'
+pod 'ReactiveFuturesKit', :git => 'https://github.com/OMsignal/ReactiveFuturesKit.git', :tag => 'v1.1.1'
 ```
