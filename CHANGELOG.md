@@ -1,7 +1,16 @@
 Next release
 ====
 
+v1.1.1 --- 2017-JUL-25
+====
+
+Features
+----
+
+- Added CocoaPods support
+
 v1.1.0 --- 2017-JUL-07
+====
 
 Features
 ----

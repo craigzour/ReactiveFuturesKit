@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "ReactiveFuturesKit"
   # Version goes here and will be used to access the git tag later on, once we have a first release.
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "A Swift implementation of Futures built on top of ReactiveSwift"
   s.homepage     = "http://omsignal.com"
   s.license      = "OMsignal"
