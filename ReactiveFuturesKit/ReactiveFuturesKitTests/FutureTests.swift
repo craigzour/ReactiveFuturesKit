@@ -549,12 +549,9 @@ class FutureTests: XCTestCase {
     
 }
 
-public func equal<T : Equatable, Error : Equatable>(_ expectedValue: Result<T, Error>) -> MatcherFunc<Result<T, Error>> {
-    
-    return MatcherFunc { actualExpression, failureMessage in
-        failureMessage.postfixMessage = "equal <\(expectedValue)>"
-        let x = try! actualExpression.evaluate()!
-        return x == expectedValue
+public func equal<T : Equatable, Error : Equatable>(_ expectedValue: Result<T, Error>) -> Predicate<Result<T, Error>> {
+    return Predicate.simple("equal <\(expectedValue)>") { actualExpression -> PredicateStatus in
+        let actualValue = try! actualExpression.evaluate()!
+        return PredicateStatus(bool: actualValue == expectedValue)
     }
-    
 }

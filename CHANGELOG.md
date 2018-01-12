@@ -1,6 +1,11 @@
 Next release
 ====
 
+Internals
+----
+
+- Migrated project to XCode 9
+
 v1.1.1 --- 2017-JUL-25
 ====
 
