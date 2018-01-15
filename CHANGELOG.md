@@ -1,6 +1,9 @@
 Next release
 ====
 
+v1.1.2 --- 2018-JAN-15
+====
+
 Internals
 ----
 
