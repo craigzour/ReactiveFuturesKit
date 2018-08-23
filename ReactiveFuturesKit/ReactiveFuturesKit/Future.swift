@@ -195,7 +195,7 @@ public class Future<Value, Error: Swift.Error>: Disposable, FutureType {
      */
     public func get(timeout: TimeInterval) throws -> Value {
         //create a event FAILED signal which wait of throwing an exception when we are reaching the delay
-        let errorProducer : SignalProducer<Value, FutureFailure<Error>> = SignalProducer(value: Event.failed(FutureFailure<Error>.interrupted))
+        let errorProducer : SignalProducer<Value, FutureFailure<Error>> = SignalProducer(value: Signal.Event.failed(FutureFailure<Error>.interrupted))
             .delay(timeout, on: QueueScheduler())
             // will check the event and throw the exception
             .dematerialize()
@@ -215,7 +215,7 @@ public class Future<Value, Error: Swift.Error>: Disposable, FutureType {
 extension FutureType where Error == NoError  {
     
     public func promoteErrors<F: Swift.Error>(_: F.Type) -> Future<Value, F> {
-        let transformedProducer = self.futureProducer.promoteErrors(F.self)
+        let transformedProducer = self.futureProducer.promoteError(F.self)
         return Future<Value, F>(signalProducer: transformedProducer)
     }
     
@@ -233,7 +233,7 @@ extension FutureType where Value : ResultProtocol, Error == NoError {
         return self
             .promoteErrors(Value.Error.self)
             .flatMap { value in
-                return value.value.map { v in return Future(value: v) } ?? Future(error: value.error!)
+                return value.result.map { v in return Future(value: v) } ?? Future(error: value.result.error!)
         }
     }
     

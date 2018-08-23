@@ -1,6 +1,15 @@
 Next release
 ====
 
+v2.0.0 --- 2018-AUG-23
+====
+
+Internals
+----
+
+- Migrated project to Swift 4.0.0
+- Updated ReactiveSwift to 4.0.0
+
 v1.1.2 --- 2018-JAN-15
 ====
 

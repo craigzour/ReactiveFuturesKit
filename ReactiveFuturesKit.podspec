@@ -7,12 +7,12 @@ Pod::Spec.new do |s|
   s.license      = "OMsignal"
   s.author       = "OMsignal"
 
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/OMsignal/ReactiveFuturesKit.git", :tag => "v#{s.version}" }
   # Directory glob for all Swift files
   s.source_files  = 'ReactiveFuturesKit/ReactiveFuturesKit/*.{swift}'
   
-  s.dependency 'ReactiveSwift', '1.1.3'
+  s.dependency 'ReactiveSwift', '4.0.0'
 
   s.pod_target_xcconfig = {"OTHER_SWIFT_FLAGS[config=Release]" => "-suppress-warnings" }
 end

@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66E14D72C9D45FBB4530CB58 /* Pods_ReactiveFuturesKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ADDC72151C181C8D47FCB4 /* Pods_ReactiveFuturesKitTests.framework */; };
+		D21A69EDB67C890198F51A0D /* Pods_ReactiveFuturesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723E2938F9F00E468B2886EF /* Pods_ReactiveFuturesKit.framework */; };
 		EBA738141EF2BD44001F0E96 /* ReactiveFuturesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA7380A1EF2BD44001F0E96 /* ReactiveFuturesKit.framework */; };
 		EBA7381B1EF2BD44001F0E96 /* ReactiveFuturesKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA7380D1EF2BD44001F0E96 /* ReactiveFuturesKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBA738251EF2BEC4001F0E96 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA738241EF2BEC4001F0E96 /* Future.swift */; };
 		EBA738291EF2BFEA001F0E96 /* ReactiveSwiftPimps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA738281EF2BFEA001F0E96 /* ReactiveSwiftPimps.swift */; };
 		EBA7382D1EF2C302001F0E96 /* FutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7382C1EF2C301001F0E96 /* FutureTests.swift */; };
 		EBA7382F1EF2C313001F0E96 /* ReactiveSwiftPimpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7382E1EF2C313001F0E96 /* ReactiveSwiftPimpsTests.swift */; };
-		EBA738361EF2C56F001F0E96 /* Nimble.framework in Carthage */ = {isa = PBXBuildFile; fileRef = EBA738331EF2C56F001F0E96 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBA738371EF2C56F001F0E96 /* ReactiveSwift.framework in Carthage */ = {isa = PBXBuildFile; fileRef = EBA738341EF2C56F001F0E96 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBA738381EF2C56F001F0E96 /* Result.framework in Carthage */ = {isa = PBXBuildFile; fileRef = EBA738351EF2C56F001F0E96 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,30 +27,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		EBA738321EF2C49C001F0E96 /* Carthage */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				EBA738361EF2C56F001F0E96 /* Nimble.framework in Carthage */,
-				EBA738371EF2C56F001F0E96 /* ReactiveSwift.framework in Carthage */,
-				EBA738381EF2C56F001F0E96 /* Result.framework in Carthage */,
-			);
-			name = Carthage;
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		22ADDC72151C181C8D47FCB4 /* Pods_ReactiveFuturesKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveFuturesKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443D9E035275A625E0DAD2CE /* Pods-ReactiveFuturesKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveFuturesKitTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ReactiveFuturesKitTests/Pods-ReactiveFuturesKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51B8F5274C7D9A0D79F43164 /* Pods-ReactiveFuturesKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveFuturesKitTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ReactiveFuturesKitTests/Pods-ReactiveFuturesKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		6819191FFBE2F2A37456064B /* Pods-ReactiveFuturesKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveFuturesKit.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ReactiveFuturesKit/Pods-ReactiveFuturesKit.debug.xcconfig"; sourceTree = "<group>"; };
+		723E2938F9F00E468B2886EF /* Pods_ReactiveFuturesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveFuturesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E057E76743FD65DA2E363202 /* Pods-ReactiveFuturesKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveFuturesKit.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ReactiveFuturesKit/Pods-ReactiveFuturesKit.release.xcconfig"; sourceTree = "<group>"; };
 		EBA7380A1EF2BD44001F0E96 /* ReactiveFuturesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveFuturesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA7380D1EF2BD44001F0E96 /* ReactiveFuturesKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveFuturesKit.h; sourceTree = "<group>"; };
 		EBA7380E1EF2BD44001F0E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA738131EF2BD44001F0E96 /* ReactiveFuturesKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveFuturesKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA7381A1EF2BD44001F0E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA738241EF2BEC4001F0E96 /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
-		EBA738271EF2BF43001F0E96 /* ReactiveFuturesKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReactiveFuturesKit.xcconfig; sourceTree = "<group>"; };
 		EBA738281EF2BFEA001F0E96 /* ReactiveSwiftPimps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveSwiftPimps.swift; sourceTree = "<group>"; };
 		EBA7382C1EF2C301001F0E96 /* FutureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FutureTests.swift; sourceTree = "<group>"; };
 		EBA7382E1EF2C313001F0E96 /* ReactiveSwiftPimpsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveSwiftPimpsTests.swift; sourceTree = "<group>"; };
@@ -65,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21A69EDB67C890198F51A0D /* Pods_ReactiveFuturesKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,20 +62,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA738141EF2BD44001F0E96 /* ReactiveFuturesKit.framework in Frameworks */,
+				66E14D72C9D45FBB4530CB58 /* Pods_ReactiveFuturesKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21B15FD99B09ED6B9FC276DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6819191FFBE2F2A37456064B /* Pods-ReactiveFuturesKit.debug.xcconfig */,
+				E057E76743FD65DA2E363202 /* Pods-ReactiveFuturesKit.release.xcconfig */,
+				443D9E035275A625E0DAD2CE /* Pods-ReactiveFuturesKitTests.debug.xcconfig */,
+				51B8F5274C7D9A0D79F43164 /* Pods-ReactiveFuturesKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EBA738001EF2BD44001F0E96 = {
 			isa = PBXGroup;
 			children = (
 				EBA7380C1EF2BD44001F0E96 /* ReactiveFuturesKit */,
 				EBA738171EF2BD44001F0E96 /* ReactiveFuturesKitTests */,
-				EBA738261EF2BF1B001F0E96 /* Configuration */,
 				EBA738391EF2C576001F0E96 /* Frameworks */,
 				EBA7380B1EF2BD44001F0E96 /* Products */,
+				21B15FD99B09ED6B9FC276DD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,20 +121,14 @@
 			path = ReactiveFuturesKitTests;
 			sourceTree = "<group>";
 		};
-		EBA738261EF2BF1B001F0E96 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				EBA738271EF2BF43001F0E96 /* ReactiveFuturesKit.xcconfig */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
 		EBA738391EF2C576001F0E96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				EBA738331EF2C56F001F0E96 /* Nimble.framework */,
 				EBA738341EF2C56F001F0E96 /* ReactiveSwift.framework */,
 				EBA738351EF2C56F001F0E96 /* Result.framework */,
+				723E2938F9F00E468B2886EF /* Pods_ReactiveFuturesKit.framework */,
+				22ADDC72151C181C8D47FCB4 /* Pods_ReactiveFuturesKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBA7381E1EF2BD44001F0E96 /* Build configuration list for PBXNativeTarget "ReactiveFuturesKit" */;
 			buildPhases = (
+				A615C82B1E89A39E2BC3A333 /* [CP] Check Pods Manifest.lock */,
 				EBA738051EF2BD44001F0E96 /* Sources */,
 				EBA738061EF2BD44001F0E96 /* Frameworks */,
 				EBA738071EF2BD44001F0E96 /* Headers */,
@@ -174,10 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBA738211EF2BD44001F0E96 /* Build configuration list for PBXNativeTarget "ReactiveFuturesKitTests" */;
 			buildPhases = (
+				F6009A2DD3E09CF9EEEE6F30 /* [CP] Check Pods Manifest.lock */,
 				EBA7380F1EF2BD44001F0E96 /* Sources */,
 				EBA738101EF2BD44001F0E96 /* Frameworks */,
 				EBA738111EF2BD44001F0E96 /* Resources */,
-				EBA738321EF2C49C001F0E96 /* Carthage */,
+				64AF38B91EFE61723F597FF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,18 +193,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = OMsignal;
 				TargetAttributes = {
 					EBA738091EF2BD44001F0E96 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 4KNKUAZ6YM;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					EBA738121EF2BD44001F0E96 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 4KNKUAZ6YM;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -247,6 +245,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64AF38B91EFE61723F597FF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-ReactiveFuturesKitTests/Pods-ReactiveFuturesKitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble-Pods-ReactiveFuturesKitTests/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift-Pods-ReactiveFuturesKit/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result-Pods-ReactiveFuturesKit/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ReactiveFuturesKitTests/Pods-ReactiveFuturesKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A615C82B1E89A39E2BC3A333 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveFuturesKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6009A2DD3E09CF9EEEE6F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveFuturesKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBA738051EF2BD44001F0E96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -279,7 +338,6 @@
 /* Begin XCBuildConfiguration section */
 		EBA7381C1EF2BD44001F0E96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA738271EF2BF43001F0E96 /* ReactiveFuturesKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -292,6 +350,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -299,6 +358,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -326,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +400,6 @@
 		};
 		EBA7381D1EF2BD44001F0E96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA738271EF2BF43001F0E96 /* ReactiveFuturesKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -353,6 +412,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -360,6 +420,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -381,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -394,6 +455,7 @@
 		};
 		EBA7381F1EF2BD44001F0E96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6819191FFBE2F2A37456064B /* Pods-ReactiveFuturesKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -409,12 +471,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		EBA738201EF2BD44001F0E96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E057E76743FD65DA2E363202 /* Pods-ReactiveFuturesKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -429,33 +492,33 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.omsignal.enterprise.ReactiveFuturesKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		EBA738221EF2BD44001F0E96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443D9E035275A625E0DAD2CE /* Pods-ReactiveFuturesKitTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4KNKUAZ6YM;
 				INFOPLIST_FILE = ReactiveFuturesKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.omsignal.enterprise.ReactiveFuturesKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		EBA738231EF2BD44001F0E96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B8F5274C7D9A0D79F43164 /* Pods-ReactiveFuturesKitTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4KNKUAZ6YM;
 				INFOPLIST_FILE = ReactiveFuturesKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.omsignal.enterprise.ReactiveFuturesKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

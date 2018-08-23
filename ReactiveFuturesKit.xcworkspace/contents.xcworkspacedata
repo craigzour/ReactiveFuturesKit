@@ -4,4 +4,7 @@
    <FileRef
       location = "group:ReactiveFuturesKit/ReactiveFuturesKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
